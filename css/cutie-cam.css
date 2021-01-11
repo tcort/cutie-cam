@@ -1,0 +1,44 @@
+
+.hide {
+    display: none;
+}
+
+canvas, video {
+    border: 1px solid #411;
+    display: block;
+    margin: 0px auto;
+}
+
+.credits {
+    display: block;
+    padding: 10px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+h1, h2, button {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+
+
+.container{
+    width: 640px;
+    height: 480px;
+    position: relative;
+    margin: 0px auto;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.overlay{
+    z-index: 9;
+}

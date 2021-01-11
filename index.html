@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>cutie cam</title>
+        <link href="css/cutie-cam.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1><em>L for Lucinda</em> presents: Cutie Cam</h1>
+
+        <section id="take-a-selfie">
+            <h2>Pose for the picture</h2>
+            <button id="capture">Take a Selfie</button>
+
+            <div class="container">
+                <div class="box">
+                    <video id="cutiecam" width="640" height="480" autoplay></video>
+                </div>
+                <div class="box overlay">
+                    <canvas id="frame" width="640" height="480"></canvas>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="your-selfie" class="hide">
+            <h2>Your Selfie</h2>
+            <button id="reset">Do it again!</button>
+            <canvas id="selfie" width="640" height="480"></canvas>
+        </section>
+
+        <small class="credits"><em>Credits: Webdev by Thomas Cort, Concept by Lucinda Cort</em></small>
+        <script src="js/cutie-cam.js"></script>
+    </body>
+</html>
